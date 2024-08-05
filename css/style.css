@@ -1,0 +1,297 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Fontspring-DEMO-biennale-medium;
+}
+
+@font-face {
+  font-family: Fontspring-DEMO-biennale-medium;
+  src: url(../fonts/Fontspring-DEMO-biennale-medium.otf);
+}
+
+header .header-main {
+  background-image: url(../images/Rectangle\ 1.png);
+  color: #fff !important;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+header .hero-sec {
+  width: 100%;
+  height: auto;
+}
+
+header .navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: rgb(255 255 255);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22.16px;
+}
+
+header .top-ul {
+  width: 100%;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-heading {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 49.86px;
+  color: #fff;
+}
+
+header .top-second-sec div p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  flex-wrap: wrap;
+}
+
+header .share-to-watshap img {
+  border-radius: 5px, 0px, 0px, 5px;
+}
+
+header .share-to-watshap {
+  margin: 20px 0px;
+}
+
+@media (max-width: 992px) {
+  header .hero-sec {
+    padding-left: 0px;
+  }
+
+  header .top-second-sec div h1 {
+    font-size: 28px;
+  }
+
+  main .main-second h2 {
+    padding: 20px 10px;
+  }
+
+  main .main-third {
+    padding: 0px 0px !important;
+  }
+
+  main .main-four .accordion-main {
+    padding: 0px 10px !important;
+  }
+
+  .footer-heading {
+    padding-left: 0px !important;
+  }
+
+  .mail-us {
+    display: flex;
+    justify-content: left !important;
+  }
+
+  .bottom-line {
+    border-bottom: 2px solid #fff;
+  }
+}
+
+@media (max-width: 567px) {
+  .navbar-toggler {
+    margin: 10px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .add-header-bg {
+    background-color: #0d0049;
+    color: #fff;
+  }
+
+  .navbar-nav {
+    position: fixed;
+    width: 100%;
+    margin-top: 90px;
+    z-index: 1000;
+  }
+
+  .top-second-sec {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+}
+
+header .navbar-toggler {
+  background-color: #00cb62 !important;
+  color: #fff !important;
+}
+
+main .main-one {
+  background-image: url(../images/image\ 4.png);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 49.86px;
+  text-align: center;
+  padding-top: 75px;
+}
+
+.heading span {
+  color: #3a54e8;
+}
+
+main .main-one .live-replay {
+  padding: 20px 0px;
+  max-width: 265px;
+  background-color: rgba(245, 243, 255, 1);
+  height: 253px;
+  padding: 20px 0px;
+  box-shadow: 0px 0px 10px 0px #00000026;
+  border-radius: 5px;
+}
+
+main .live-replay h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24.93px;
+  margin: 10px 0px;
+}
+
+main .live-replay p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20.77px;
+}
+
+main .main-second {
+  width: 100%;
+  max-height: auto;
+  background-color: #f7f5ff;
+  padding-bottom: 30px;
+}
+
+main .main-third {
+  padding: 50px 150px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  height: auto;
+}
+
+main .main-third p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+main .main-third h3 {
+  font-size: 18px;
+  line-height: 24.93px;
+  font-weight: 600;
+}
+
+main .main-four {
+  background-image: url(../images/banner_top\ 1.png);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+main .main-four .accordion-main {
+  padding: 0px 400px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--bs-accordion-active-bg) none;
+}
+
+.accordion-item {
+  border: var(--bs-accordion-border-width) solid
+    var(--bs-accordion-border-color) none;
+  box-shadow: 0px 0px 4px 0px #00000033;
+}
+
+main main .accordion-item {
+  box-shadow: 0px 0px 4px 0px #00000033;
+  border: 0px !important;
+}
+
+main .accordion-item .accordion-button {
+  height: 60px;
+  border-radius: 7px;
+  box-shadow: none;
+}
+
+main .accordion-item .accordion-header .accordion-button {
+  color: #483be0 !important;
+  font-weight: 600 !important;
+  font-size: 22px !important;
+  line-height: 30.47px !important;
+}
+
+.yellow {
+  color: #ffd535;
+}
+
+.bg-blue {
+  background-color: #2101bc;
+}
+
+.height-full {
+  height: 100%;
+}
+
+.footer-list-heading {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30.47px;
+}
+
+.footer-list {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 5px 0px;
+  list-style: none;
+}
+
+.footer-bg {
+  background-color: #0d0049;
+  color: #fff;
+}
+
+.wp-icon {
+  vertical-align: -3px;
+}
+
+.bottom-pera {
+  background-color: #0d0049;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20.77px;
+  border-top: 1px solid #fff;
+}
+
+.bottom-pera span {
+  color: yellow;
+}
+
+.scroll-to-top {
+  background-color: #dc067f;
+  height: 50px;
+  width: 50px;
+  border-radius: 32px;
+  right: 10px;
+  top: 500px;
+  position: fixed;
+  color: #fff;
+  font-weight: 900;
+  z-index: 1;
+}
